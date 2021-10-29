@@ -13,6 +13,7 @@ const routes = [
     children:[
       {path:'',name:'Principal',component: () => import(/* webpackChunkName: "principal" */ '@/views/Principal.vue')},
       {path:'/listadoPrestamos',name:'Prestamos',component: () => import(/* webpackChunkName: "prestamos" */ '@/views/Prestamos.vue')},
+      {path:'/perfil',name:'Perfil',component: () => import(/* webpackChunkName: "perfil" */ '@/views/Perfil.vue')},
       {path:'/libro/:id',name:'detalleLibro',component: () => import(/* webpackChunkName: "deatlleLibro" */ '@/views/detalleLibro.vue')}
     ]
   },{

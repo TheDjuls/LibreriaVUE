@@ -16,7 +16,7 @@
           </template>
 
           <v-list v-if="$session.exists()">
-              <v-list-item>
+              <v-list-item :to="{name:'Perfil'}">
               <v-list-item-title>Mi Perfil</v-list-item-title>
             </v-list-item>
             <v-list-item @click="cerrarSession()">
